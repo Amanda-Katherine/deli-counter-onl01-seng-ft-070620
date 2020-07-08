@@ -1,7 +1,7 @@
 # Write your code here.
 def line(place)
   place_array = []
-  if array.length == 0
+  if place.length == 0
    puts "The line is currently empty."
  else
    place.each do |tix|
