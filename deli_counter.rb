@@ -11,5 +11,3 @@ def line(place)
    end #each
  end #if
 end #line
-
-  
