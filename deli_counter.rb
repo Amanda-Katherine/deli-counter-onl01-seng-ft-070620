@@ -7,7 +7,11 @@ def line(katz_deli)
    puts place << " empty."
  else
    katz_deli.each_with_index do |name, number|
-     place << ": #{number +1}. #{name}"
+     if index == katz_deli.length - 1
+       place << ": #{number +1}. #{name} "
+     else
+       place << ": #{number +1}. #{name}"
+     end #if
    end #each
  end #if
 end #line
