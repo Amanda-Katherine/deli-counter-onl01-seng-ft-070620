@@ -8,9 +8,9 @@ def line(katz_deli)
  else
    katz_deli.each_with_index do |name, number|
      if number == katz_deli.length - 1
-       place << ": #{number +1}. #{name} "
+       place << ":#{number +1}. #{name} "
      else
-       place << ": #{number +1}. #{name}"
+       place << ":#{number +1}. #{name}"
      end #if
    end #each
    puts place
