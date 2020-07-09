@@ -13,6 +13,7 @@ def line(katz_deli)
        place << ": #{number +1}. #{name}"
      end #if
    end #each
+   puts place
  end #if
 
 end #line
