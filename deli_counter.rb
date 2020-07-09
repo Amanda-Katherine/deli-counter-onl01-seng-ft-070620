@@ -6,9 +6,8 @@ def line(katz_deli)
   if katz_deli.length == 0
    puts place << " empty."
  else
-   line_place = []
-   katz_deli.each do |tix|
-     katz_deli << "Hello, you are currently number #{tix +1} in line."
+   katz_deli.each_with_index do |name, number|
+     place += " #{number +1}. #{name}"
    end #each
  end #if
 end #line
