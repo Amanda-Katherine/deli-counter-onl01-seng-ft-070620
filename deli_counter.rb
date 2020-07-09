@@ -1,4 +1,6 @@
 # Write your code here.
+katz_deli = []
+
 def line(place)
   place_array = []
   if place.length == 0
