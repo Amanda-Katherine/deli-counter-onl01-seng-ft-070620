@@ -14,4 +14,5 @@ def line(katz_deli)
      end #if
    end #each
  end #if
+ puts place
 end #line
