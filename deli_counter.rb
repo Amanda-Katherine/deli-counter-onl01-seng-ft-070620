@@ -1,7 +1,9 @@
 # Write your code here.
 katz_deli = []
 num = 2
-num += 3
+3.times do
+  num += 3
+end
 puts num
 # def line(katz_deli)
 #
