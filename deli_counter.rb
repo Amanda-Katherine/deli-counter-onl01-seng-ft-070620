@@ -1,13 +1,12 @@
 # Write your code here.
 katz_deli = []
 
-def line(place)
-  place_array = []
-  if place.length == 0
+def line(katz_deli)
+  if katz_deli.length == 0
    puts "The line is currently empty."
  else
-   place.each do |tix|
-     place_array << "Hello, you are currently number #{tix +1} in line."
+   katz_deli.each do |tix|
+     katz_deli << "Hello, you are currently number #{tix +1} in line."
    end #each
  end #if
 end #line
